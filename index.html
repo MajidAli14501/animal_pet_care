@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <meta name="description" content="This webpage is about health care of animals">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <link rel="stylesheet" href="css/cover.css">
+
+
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid image_first py-6">
+      <div class="search-form" id="search-bar">
+        <form>
+          <input type="text" placeholder="Search" class="form-control" onblur="hidebtn()" size="50">
+        </form>
+      </div>
+      <div class="container  pt-4 pb-4">
+        <div class="row">
+          <div class="col-lg-2"> <!--logo here-->
+            <a href="#logo"><img src="images/logo.png" alt="logo pic" class="img-fluid"></a>
+            <div class="navbar navbar-expand-lg float-end btn-pad ">
+              <button class="navbar-toggler btn-style" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+
+          </div>
+          <div class="col-lg-9">
+
+            <nav class="navbar navbar-expand-lg navbar-light float-end ">
+              <div class="container-fluid">
+                <div class="collapse navbar-collapse justify-content-end py-3" id="navbarNav">
+                  <ul class="nav navbar-nav poppins-semibold nav justify-content-end ">
+                    <li class="nav-item "><a href="#" class="nav-link anchor-align  aria-current=page">Home</a></li>
+                    <li class="nav-item "><a href="#" class="nav-link anchor-align">Product</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link anchor-align">Promo</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link anchor-align">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link anchor-align">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+          </div>
+          <div class="col-lg-1 ">
+            <div class="mt-4">
+              <a href="#search" class="float-end" onclick="mysearch()"><img src="images/search.png" alt="search pic"
+                  class="search-icon img-fluid image-hover"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="text-center">
+            <p class="title-care-pet poppins-bold ">We Care About Your Pet</p>
+            <p class="p-header nunito-regular"> Lorem ipsum, dolor sit amet consectetur adipisici<br> elit. Corrupti,
+              quaerat! Quo,
+              corporis! amet
+              consectetur.
+            </p>
+            <button class="order-btn poppins-bold ">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--main section-->
+  <main>
+    <section>
+      <div class="container-fluid image_second ">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="text-center">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h1 class="title-main poppins-bold ">Title Here</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <p class="p-header poppins-regular"> Lorem ipsum, dolor sit amet consectetur adipisici<br> elit.
+                  Corrupti,
+                  quaerat! Quo,
+                  corporis! amet
+                  consectetur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="text-center">
+                    <a href="#pet_care"><img src="images/pet-care.png" alt="pet_care_picture"
+                        class="img-fluid image-hover"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 ">
+                  <div class="text-center pet-data">
+                    <a href="#pet_care">
+                      <h2 class="increase-txt poppins-bold pt-3 ">Pet Care</h2>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 ">
+                  <div class="text-center pet-data">
+                    <p class="increase-para poppins-regular pt-2 pad-para-bot">Lorem ipsum dolor sit
+                      amet,<br>consectetur
+                      adipisicing
+                      elit. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="text-center">
+                    <a href="#pet_care"><img src="images/pet-shop.png" alt="pet_shop_picture"
+                        class="img-fluid image-hover"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 ">
+                  <div class="text-center pet-data">
+                    <a href="#pet_care">
+                      <h2 class="increase-txt poppins-bold pt-3 ">Pet Shop</h2>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 ">
+                  <div class="text-center pet-data">
+                    <p class="increase-para poppins-regular pt-2 pad-para-bot">Lorem ipsum dolor sit
+                      amet,<br>consectetur
+                      adipisicing
+                      elit. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="text-center">
+                    <a href="#pet_care"><img src="images/pet-help_03.png" alt="pet_help_picture"
+                        class="img-fluid image-hover"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 ">
+                  <div class="text-center pet-data">
+                    <a href="#pet_care">
+                      <h2 class="increase-txt poppins-bold pt-3 ">Pet Help</h2>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="row py-7">
+                <div class="col-lg-12 ">
+                  <div class="text-center pet-data">
+                    <p class="increase-para poppins-regular pt-2">Lorem ipsum dolor sit amet,<br>consectetur adipisicing
+                      elit. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid image-third py-8">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-12">
+              <div class=" text-center">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h1 class="title-main poppins-bold">Title Here</h1>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class="poppins-regular p-header pt-3">Lorem ipsum dolor sit amet consectetur amet adipisicing
+                      elit.<br>Corrupti,
+                      quaerat! Quo, corporis!dolor
+                      amet consectetur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4  ">
+              <div class="medium_screen_center">
+              <div class="circle image-hover">
+                <div class="row">
+                  <div class="col-lg-12 ">
+                    <P class="pet_measurement poppins-bold pt-5"><strong>3.5k</strong></P>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class=" poppins-regular">Pet Care</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4 ">
+              <div class="medium_screen_center">
+              <div class="circle image-hover">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <P class="pet_measurement poppins-bold pt-5"><strong>900</strong></P>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class=" poppins-regular">Outlet</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4 ">
+              <div class="medium_screen_center">
+              <div class="circle image-hover">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <P class="pet_measurement poppins-bold pt-5"><strong>2k+</strong></P>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class=" poppins-regular">Pet Helping</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid image-fourth ">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 move-content mt-5">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h1 class="third-title poppins-bold margin-minus-20 title-animation">Title Here</h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <p class="para-description poppins-regular">Lorem ipsum dolor sit amet consecte-<br>tur adipisicing
+                    elit Corrupti,
+                    quaerat! Quo,<br> corporis!
+                    amet consectetur.
+                  </p><br>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button class="order-btn poppins-bold">Order Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 ">
+              <div class="image-txt py-9">
+                <div class="row">
+                  <div class="col-lg-12"><a href="#nurse"><img src="images/female_dog4_03.png" alt="dog with nurse"
+                        class="img-fluid pet-pad-sec image-hover"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid image-five py-10 ">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 five-content-move">
+              <div class="row   ">
+                <div class="col-lg-12 "> <a href="#nurse"><img src="images/female_dog4_03.png" alt="dog with nurse"
+                      class="img-fluid pet-pad-sec image-hover"></a>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-6 fourth-content-move ps-5">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h1 class="fourth-title poppins-bold margin-minus-20 title-animation">Title Here</h1><br>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-12">
+                  <p class="para-description-fourth poppins-regular">Lorem ipsum dolor sit amet consecte-<br>tur
+                    adipisicing elit
+                    Corrupti,
+                    quaerat! Quo,<br> corporis!
+                    amet consectetur.
+                  </p><br>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button class="order-btn poppins-bold">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid image-six py-11">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-12 ">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h1 class="title-main poppins-bold">Pricing</h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  `<p class="poppins-regular p-header pt-4">Lorem ipsum dolor sit amet consectetur amet adipisicing
+                    elit.Vi-<br>Corrupti,
+                    quaerat! Quo, corporis!dolor
+                    amet consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!--Pricing boxs-->
+
+          <div class="row outer-box">
+
+            <div class="col-lg-4 image-hover">
+              <div class=" premium-box py-12 mt-2">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class="size-premium poppins-bold pt-4">Premium</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <img src="images/dog-feet.png" alt="dog-feet image here" class="image-feet img-fluid">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class="image-feet-price poppins-bold pt-4">$19.00</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class="para-feet-txt poppins-regular">Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button class="order-btn-feet poppins-bold">Order Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 image-hover">
+              <div class=" premium-box py-12 mt-2">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class="size-premium poppins-bold pt-4">Premium</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <img src="images/dog-feet.png" alt="dog-feet image here" class="image-feet img-fluid">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class="image-feet-price poppins-bold pt-4">$19.00</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class="para-feet-txt poppins-regular">Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button class="order-btn-feet poppins-bold">Order Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 image-hover">
+              <div class=" premium-box py-12 mt-2">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class="size-premium poppins-bold pt-4">Premium</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <img src="images/dog-feet.png" alt="dog-feet image here" class="image-feet img-fluid">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class="image-feet-price poppins-bold pt-4">$19.00</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class="para-feet-txt poppins-regular">Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit.</p>
+                  </div>
+                </div>
+                <div class="row ">
+                  <div class="col-lg-12">
+                    <button class="order-btn-feet poppins-bold">Order Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid image-seven ">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-12  ">
+              <div class="text-center">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h1 class="title-main poppins-bold">Title Here</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class="poppins-regular p-header pt-4">Lorem ipsum dolor sit amet consectetur amet adipisicing
+                      elit.<br>Corrupti,
+                      quaerat! Quo, corporis!dolor
+                      amet consectetur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-5 feet-align">
+            <div class="col-lg-2 ">
+              <div class="feets-image ps-5">
+                <div class="row ">
+                  <div class="col-lg-12">
+                    <img src="images/feet-photo_03.png" alt="dog feet image" class="img-fluid image-hover">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-12">
+                  <p class="lorem-font-size poppins-bold ">Lorem Ipsum</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <p class="lorem-para-font poppins-regular feets-content">Lorem ipsum dolor sit amet con- <br>sectetur
+                    adipisicing elit. Omnis
+                    at <br> aliquid neque
+                    doloremque ex.<br>cepturi! Neque amet est dignis-.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2  ">
+              <div class="ps-5">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <img src="images/feet-photo_03.png" alt="dog feet image" class="img-fluid image-hover">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-12">
+                  <p class="lorem-font-size poppins-bold  ">Lorem Ipsum</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <p class="lorem-para-font poppins-regular feets-content">Lorem ipsum dolor sit amet con- <br>sectetur
+                    adipisicing elit. Omnis
+                    at <br> aliquid neque
+                    doloremque ex.<br>cepturi! Neque amet est dignis-.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row  mt-5 feet-align">
+            <div class="col-lg-2  ">
+              <div class="ps-5">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <img src="images/feet-photo_03.png" alt="dog feet image" class="img-fluid image-hover">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-12">
+                  <p class="lorem-font-size poppins-bold ">Lorem Ipsum</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <p class="lorem-para-font poppins-regular feets-content">Lorem ipsum dolor sit amet con- <br>sectetur
+                    adipisicing elit. Omnis
+                    at <br> aliquid neque
+                    doloremque ex.<br>cepturi! Neque amet est dignis-.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="ps-5">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <img src="images/feet-photo_03.png" alt="dog feet image" class="img-fluid image-hover">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-12">
+                  <p class="lorem-font-size poppins-bold ">Lorem Ipsum</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-12 ">
+                  <div class="py-13">
+                    <p class="lorem-para-font poppins-regular feets-content">Lorem ipsum dolor sit amet con-
+                      <br>sectetur
+                      adipisicing elit. Omnis
+                      at <br> aliquid neque
+                      doloremque ex.<br>cepturi! Neque amet est dignis-.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid image-eight text-center">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-12  ">
+              <div class="pt-doc">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class="puppy-chk-txt poppins-regular ">Lorem ipsum dolor sit amet, consectetur<br> adipisicing
+                      elit.
+                      Vivamus lacinia
+                      odio vitae<br>vestiblum
+                      vestiblum .</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p class="doc-name poppins-bold">Dr.jenny</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container-fluid bg-footer-color py-15">
+      <div class="container">
+        <div class="row ps-5">
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-lg-12">
+                <p class="title-font nunito-bold pt-6">Title Here</p>
+                <p class="footer-para nunito-regular">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit.
+                  Impedit nobis inventore<br>sit, harum eveniet
+                  similique. Aliquamun <br> explicabo. </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12 ">
+                <div class="icons-footer pt-4">
+                  <a href="#Instagram"><img src="images/icons_03.png" class="img-fluid image-hover"></a>&nbsp;&nbsp;
+                  <a href="#Facebook"><img src="images/icons_05.png" class="img-fluid image-hover"></a>&nbsp;&nbsp;
+                  <a href="#Twitter"><img src="images/icons_07.png" class="img-fluid image-hover"></a>&nbsp;&nbsp;
+                  <a href="#Whatsapp"><img src="images/icons_09.png" class="img-fluid image-hover"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2">
+            <div class="row">
+              <div class="col-lg-12 ">
+                <div class="about-footer">
+                  <p class="title-font nunito-bold pt-6">About</p>
+                  <a href="#history">
+                    <p class="links-footer nunito-regular">History</p>
+                  </a>
+                  <a href="#ourteam">
+                    <p class="links-footer nunito-regular">Our Team</p>
+                  </a>
+                  <a href="#brand ">
+                    <p class="links-footer nunito-regular">Brand Guidelines</p>
+                  </a>
+                  <a href="#term">
+                    <p class="links-footer nunito-regular">Term & Condition</p>
+                  </a>
+                  <a href="#privacy">
+                    <p class="links-footer nunito-regular">Privacy Policy</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 ">
+            <div class="row">
+              <div class="col-lg-12 ">
+                <div class="about-footer">
+                  <p class="title-font nunito-bold pt-6">Services</p>
+                  <a href="#how to order">
+                    <p class="links-footer nunito-regular">How to Order</p>
+                  </a>
+                  <a href="#product">
+                    <p class="links-footer nunito-regular">Our Product</p>
+                  </a>
+                  <a href="#order ">
+                    <p class="links-footer nunito-regular">Order Status</p>
+                  </a>
+                  <a href="#promo">
+                    <p class="links-footer nunito-regular">Promo</p>
+                  </a>
+                  <a href="#payment">
+                    <p class="links-footer nunito-regular">Payment Method</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 ">
+            <div class="row">
+              <div class="col-lg-12 ">
+                <div class="about-footer">
+                  <p class="title-font nunito-bold pt-6">Other</p>
+                  <a href="#contact us">
+                    <p class="links-footer nunito-regular">Contact Us</p>
+                  </a>
+                  <a href="#help">
+                    <p class="links-footer nunito-regular">Help</p>
+                  </a>
+                  <a href="#privacy">
+                    <p class="links-footer nunito-regular">Privacy</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    function mysearch() {
+      if (document.getElementById("search-bar").style.display == "inline") {
+        document.getElementById("search-bar").style.display = "none";
+      }
+      else {
+        document.getElementById("search-bar").style.display = "inline";
+      }
+
+    }
+    function hidebtn() {
+      document.getElementById("search-bar").style.display = "none";
+    }
+
+    window.addEventListener('scroll', function () {
+      const title = document.querySelector(".title-animation");
+      if (window.scrollY > 300) {
+
+        title.classList.add("margin-0")
+      }
+    });
+
+
+  </script>
+</body>
+
+</html>
